@@ -9,7 +9,6 @@ import Dermatop from '../assets/Home/dermatop.png'
 import Paramol from '../assets/Home/paramol-sol-tabs.png'
 import Metformin from '../assets/Home/Metformin.png'
 import uripan from '../assets/Home/uripan.png';
-import sensovit from '../assets/Home/sensovit.png';
 
 export let DUMMY_DATA = [
     {
@@ -128,22 +127,7 @@ export let DUMMY_DATA = [
         usage2:"Bone and joint infections.",
         usage3:"Upper and lower respiratory tract infections.",
         Dosage_Administration: "Dose for adults: one tablet every 8 hours (every 6 hours in severe infections).  Dose for children (8-16years): 1/2 tablet every 8 hours. ",
-    },
-    {
-        id:9,
-       image:sensovit,
-       title:"Sensovit",
-       price: "Price Range: US$5~US$20/Kg",
-        categories:"Categories: Cardiovascular System",
-        company:"Company: Lorem ipsum dolor",
-        composition: " Contains amoxicillin trihydrate and flucloxacillin sodium monohydrate equivalent to Amoxicillin 500 mg.",
-        Adverse_Effects: "It is well tolerated but in rare cases diarrhea, nausea or cholestatic jaundice which is reversible, may occur.",
-        usage1:"Skin and soft tissue infections.",
-        usage2:"Bone and joint infections.",
-        usage3:"Upper and lower respiratory tract infections.",
-        Dosage_Administration: "Dose for adults: one tablet every 8 hours (every 6 hours in severe infections).  Dose for children (8-16years): 1/2 tablet every 8 hours. ",
-    
-    },
+    }
   ];
 
 function Categories() {
