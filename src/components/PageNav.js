@@ -45,6 +45,8 @@ function PageNav() {
             <Col style={{marginTop:"1%"}}>
               <NavLink activeClassName="active" to="/About"  className='links' style={{textDecoration:"none"}}>About</NavLink></Col>
             <Col style={{marginTop:"1%",marginLeft:"20px"}}><NavLink activeClassName="active" to="/Contact" className='links' style={{textDecoration:"none"}}>Contact</NavLink></Col>
+            <Col style={{marginTop:"1%",marginLeft:"20px"}}><NavLink activeClassName="active" to="/profile" className='links' style={{textDecoration:"none"}}>Profile</NavLink></Col>
+
                 </Row>
                 </div>
                 
