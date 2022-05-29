@@ -10,6 +10,8 @@ import Productinfo from './pages/Productinfo'
 import About from './pages/About';
 import PageNav from "./components/PageNav";
 import Footer from "./components/Footer";
+import UserProfile from './pages/UserProfile';
+
 function App() {
   return(
     <div>
@@ -22,6 +24,7 @@ function App() {
         <Route path="/Categories" element={<Categories/>}></Route>
         <Route path="/About" element={<About/>}></Route>
         <Route path='/Contact' element={<Contact/>}></Route>
+        <Route path='/profile' element={<UserProfile/>}></Route>
       </Routes>
       <Footer/>
     </div>);
